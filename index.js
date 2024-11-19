@@ -1,5 +1,5 @@
-import Alert from "./Alert.jsx";
-import AlertProvider from "./AlertProvider.jsx";
-import { useAlert } from "./useAlert.jsx";
+import Alert from "./Alert";
+import AlertProvider from "./AlertProvider";
+import { useAlert } from "./useAlert";
 
 export { Alert, AlertProvider, useAlert }
