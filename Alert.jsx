@@ -8,7 +8,7 @@ const Alert = ({ type = "info", title, text, ltr = false }) => {
       <div></div>
       <h3>{title}</h3>
       <p>{text}</p>
-      <img src={`/${type}.png`} alt={type} />
+      <img src={`./${type}.png`} alt={type} />
     </div>
   );
 };
