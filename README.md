@@ -59,13 +59,17 @@ Una vez te has traido la función alert de useAlert, puedes invocar una alerta c
 ### types
 Para utilizar correctamente los tipos de la alerta tenemos las siguientes posibilidades:
 - success
+-
 ![success](https://res.cloudinary.com/dvxk7aq5u/image/upload/v1732015740/rtc-alerts2/Screenshot_4_h9qwix.jpg)
 
 - error
+- 
 ![error](https://res.cloudinary.com/dvxk7aq5u/image/upload/v1732015741/rtc-alerts2/Screenshot_2_p3vdws.jpg)
 
 - warning
+- 
 ![warning](https://res.cloudinary.com/dvxk7aq5u/image/upload/v1732015741/rtc-alerts2/Screenshot_3_rqpw8z.jpg)
 
 - info
+- 
 ![info](https://res.cloudinary.com/dvxk7aq5u/image/upload/v1732015740/rtc-alerts2/Screenshot_1_n0mvm2.jpg)
