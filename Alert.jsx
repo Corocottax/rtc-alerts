@@ -11,7 +11,7 @@ const images = {
   warning: warningImg,
 };
 
-export const Alert = ({ type = "info", title, text, ltr = false }) => {
+const Alert = ({ type = "info", title, text, ltr = false }) => {
   return (
     <div className={`rtc-main-alert ${type}`}>
       <div></div>
@@ -21,3 +21,5 @@ export const Alert = ({ type = "info", title, text, ltr = false }) => {
     </div>
   );
 };
+
+export default Alert;

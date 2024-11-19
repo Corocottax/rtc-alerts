@@ -5,7 +5,7 @@ const alertsArr = [];
 
 let id = 0;
 
-export const useAlert = () => {
+const useAlert = () => {
   const { alerts, setAlerts } = useContext(AlertContext);
 
   const alert = ({ title, text, type, time = 2000 }) => {
@@ -22,3 +22,5 @@ export const useAlert = () => {
 
   return { alert };
 };
+
+export default useAlert;
