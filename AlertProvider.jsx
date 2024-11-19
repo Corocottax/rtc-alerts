@@ -11,7 +11,7 @@ const AlertProvider = ({ children }) => {
 
   return (
     <AlertContext.Provider value={{ alerts, setAlerts }}>
-      <div style={{ position: "absolute", width: "100%", top: 0, left: 0 }}>
+      <div style={{ position: "absolute", width: "100%", top: 0, left: 0, zIndex: 999999999999999999999999999 }}>
         {alerts.map((alert, index) => (
           <Alert
             key={index}
