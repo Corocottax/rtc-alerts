@@ -1,8 +1,8 @@
 import "./Alert.css";
-import errorImg from './error.png';
-import infoImg from './info.png';
-import successImg from './success.png';
-import warningImg from './warning.png';
+import errorImg from "./error.png";
+import infoImg from "./info.png";
+import successImg from "./success.png";
+import warningImg from "./warning.png";
 
 const images = {
   error: errorImg,
@@ -11,7 +11,7 @@ const images = {
   warning: warningImg,
 };
 
-const Alert = ({ type = "info", title, text, ltr = false }) => {
+export const Alert = ({ type = "info", title, text, ltr = false }) => {
   return (
     <div className={`rtc-main-alert ${type}`}>
       <div></div>
@@ -21,5 +21,3 @@ const Alert = ({ type = "info", title, text, ltr = false }) => {
     </div>
   );
 };
-
-export default Alert;

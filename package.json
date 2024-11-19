@@ -27,7 +27,7 @@
   },
   "files": [
     "Alert.css",
-    "Alert.js",
+    "Alert.jsx",
     "AlertProvider.jsx",
     "useAlert.jsx",
     "error.png",

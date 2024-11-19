@@ -3,11 +3,8 @@ import Alert from "./Alert";
 
 export const AlertContext = createContext();
 
-const AlertProvider = ({ children }) => {
+export const AlertProvider = ({ children }) => {
   const [alerts, setAlerts] = useState([]);
-
-  console.log(alerts);
-  
 
   return (
     <AlertContext.Provider value={{ alerts, setAlerts }}>
@@ -25,5 +22,3 @@ const AlertProvider = ({ children }) => {
     </AlertContext.Provider>
   );
 };
-
-export default AlertProvider;
