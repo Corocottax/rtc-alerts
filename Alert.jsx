@@ -1,6 +1,15 @@
 import "./Alert.css";
-import AlertProvider from "./AlertProvider";
-import { useAlert } from "./useAlert";
+import errorImg from './error.png';
+import infoImg from './info.png';
+import successImg from './success.png';
+import warningImg from './warning.png';
+
+const images = {
+  error: errorImg,
+  info: infoImg,
+  success: successImg,
+  warning: warningImg,
+};
 
 const Alert = ({ type = "info", title, text, ltr = false }) => {
   return (
@@ -8,7 +17,7 @@ const Alert = ({ type = "info", title, text, ltr = false }) => {
       <div></div>
       <h3>{title}</h3>
       <p>{text}</p>
-      <img src={`./${type}.png`} alt={type} />
+      <img src={images[type]} alt={type} />
     </div>
   );
 };

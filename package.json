@@ -1,6 +1,6 @@
 {
   "name": "rtc-alerts2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,16 @@
   "homepage": "https://github.com/Corocottax/rtc-alerts#readme",
   "peerDependencies": {
     "react": "^18.3.1"
-  }
+  },
+  "files": [
+    "Alert.css",
+    "Alert.js",
+    "AlertProvider.jsx",
+    "useAlert.jsx",
+    "error.png",
+    "info.png",
+    "success.png",
+    "warning.png",
+    "index.js"
+  ]
 }
